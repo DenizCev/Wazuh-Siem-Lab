@@ -1,0 +1,60 @@
+name: Security Incident
+about: Multiple sudo authentication failures
+title: "Authentication failure"
+labels: security, incident
+---
+
+## 🧠 Summary
+Multiple authentication failures with a sudo user
+
+---
+
+## ⚠️ Severity
+- [X] Low  (Not really a security incident since it was only a user who forgot their password)
+- [ ] Medium
+- [ ] High
+- [ ] Critical
+
+---
+
+## 📍 Detection
+Saw multiple attempts from a couple of alerts in Wazuh in short time with the rule.id:5003
+
+
+---
+
+## ⏱ Timeline (UTC)
+- HH:MM – Händelse
+- HH:MM – Eskalering
+- HH:MM – Åtgärd
+
+---
+
+## 💥 Impact
+- System påverkade:
+- Data påverkan:
+- Användare påverkade:
+
+---
+
+##  Root Cause
+Likely user forgot their password, waiting for confirmation.
+
+---
+
+## 🛠 Mitigation
+Contacted the user in question and asked if they had forgot their password.
+
+---
+
+
+---
+
+
+
+---
+
+## 📎 Evidence
+- Loggar
+- Screenshots
+- IOCs
